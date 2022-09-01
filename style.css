@@ -61,6 +61,16 @@ footer {
   margin-right: 0.5rem;
 }
 
+.image > img {
+  width: 20px;
+  height: 20px;
+}
+
+.image > span {
+  display: inline-flex;
+  align-self: center;
+}
+
 .navi__item > span {
   font-size: 0.2rem;
   font: normal normal normal 11px/12px Helvetica;

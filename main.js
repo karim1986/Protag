@@ -15,12 +15,14 @@ htmlElement.innerHTML = `
     <span> Nachhaltige Produkte </span>
     </div>
 
-    <div class = "navi__item">
+    <div class = "navi__item image">
     <img src="./images/Trusted_Shops-Trustmark.png" alt="time reload">
     <span> 4.87/5 </span>
     </div>
   
    `;
+
+// append the new element the body and header block
 document.body.appendChild(htmlElement);
 pageWrapper.appendChild(htmlElement);
 console.log(pageWrapper);
