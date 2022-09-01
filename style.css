@@ -69,6 +69,9 @@ footer {
   opacity: 1;
 }
 
+/* Desk-top version */
+/* Styling fählt !!! Nur Mobile */
+
 @media screen and (min-width: 780px) {
   .navi__item > img {
     width: 64px;
